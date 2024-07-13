@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gladis"
+version = "0.1.0"
+description = ""
+authors = ["yarden <yarden.kivity@gmail.com>"]
+readme = "README.md"
+packages = [{include = "troll"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest="^8.2.0"
+flake8="^7.0.0"
+black="^24.4.2"
+isort="^5.13.2"
+mypy="^1.10.0"
+autoflake="^2.3.1"
+bumpversion="^0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

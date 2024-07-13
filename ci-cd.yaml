@@ -1,0 +1,35 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: run
+        run: echo "helo"
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: run
+        run: echo "helo"
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: run
+        run: echo "helo"
+
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: run
+        run: echo "helo"
+
